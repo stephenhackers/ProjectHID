@@ -1,0 +1,33 @@
+REM Screen Lock Part 1 
+GUI r 
+DELAY 500 
+STRING notepad.exe 
+ENTER 
+DELAY 1000 
+STRING           , ,\ ,'\,'\ ,'\ ,\ ,
+ENTER
+DELAY 500 
+STRING     ,  ,\/ \' `'     `   '  /|
+ENTER
+DELAY 500 
+STRING     |\/                      |
+ENTER
+DELAY 500 
+STRING     :                        |
+ENTER
+DELAY 500 
+STRING     :                        |
+ENTER
+DELAY 500 
+STRING      |                       |
+ENTER
+STRING      |                       |
+ENTER
+STRING      :               -.     _|
+ENTER
+DELAY 500 
+STRING      :                \     `.
+ENTER
+STRING      |         ________:______\
+ENTER
+DELAY 500 

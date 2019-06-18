@@ -1,0 +1,12 @@
+ENTER
+STRING Please remember to lock your computer (Windows+L) when you step away from your desk.
+ENTER
+DELAY 500 
+ENTER
+STRING Thank you.
+ENTER
+DELAY 100
+ALT SPACE
+STRING x
+DELAY 50
+GUI l

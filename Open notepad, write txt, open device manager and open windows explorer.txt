@@ -1,0 +1,22 @@
+REM Open notepad, write txt, open device manager and open windows explorer
+GUI r 
+DELAY 500 
+STRING notepad.exe 
+ENTER 
+DELAY 1000 
+STRING Welcome to TechUG! 
+ENTER
+DELAY 1000 
+STRING The special HID Keyboard Device!
+DELAY 1000 
+ENTER
+STRING Check Out Device Manager and Windows Explorer!
+GUI r 
+DELAY 10000 
+STRING explorer.exe
+ENTER
+DELAY 10000 
+GUI r 
+DELAY 1000
+STRING devmgmt.msc
+ENTER

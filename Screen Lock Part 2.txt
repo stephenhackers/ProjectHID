@@ -1,0 +1,26 @@
+STRING      :       ,'o       / o    ,
+ENTER
+STRING      :       \       ,'-----./
+ENTER
+DELAY 500 
+STRING       \_      `--.--'        )
+ENTER
+STRING      ,` `.              ,---'|
+ENTER
+STRING      : `                     |
+ENTER
+STRING       `,-'                   |
+ENTER
+STRING       /      ,---.          ,'
+ENTER
+DELAY 500 
+STRING    ,-'            `-,------'
+ENTER
+STRING    `.        ,--'
+ENTER
+STRING      `-.____/
+ENTER
+ENTER
+STRING I will learn to lock my computer.
+ENTER
+STRING I will learn to lock my computer.
